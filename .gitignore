@@ -1,2 +1,3 @@
-.vscode
-MCS-Calculator_env
+.vscode/
+MCS-Calculator_env/
+.gitignore
