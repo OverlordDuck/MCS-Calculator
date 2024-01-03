@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#used for gloves later gotta redo this I think. works for now
 def get_answer():
     while True:
         user_input = input().strip().lower()
@@ -9,6 +10,7 @@ def get_answer():
         else:
             print("Invalid Input Detected! Please enter y/n:")
 
+#checks for types of scrolls used.
 def get_scroll_type():
     while True:
         scroll_type = input().strip().lower()
@@ -49,6 +51,7 @@ def main():
 
         # Check if the item is a Glove
         print("Is this item a Glove? Please enter y/n: ")
+        #I should prolly make a class for doing all my inputs and shit but honestly I'm so done with this shit right now.
         is_glove = get_answer()
 
         if item_level == 150:
